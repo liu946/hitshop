@@ -1,0 +1,1 @@
+<?php {"pri":"id","0":"cid","1":"name","2":"ownerid","3":"fbtime","4":"simg","5":"bimg","6":"price","7":"proprice","8":"danwei","9":"num","10":"jieshao","11":"xiangxi","12":"state","13":"starttime","14":"endtime","15":"chengjiaonum","16":"checknum"}yes

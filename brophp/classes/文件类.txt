@@ -1,0 +1,24 @@
+//
+$up = new  FileUpload();
+
+	if($up->upload('pic')){
+		p($up->getFileName().'上传成功');
+		//随机文件名
+	}else{
+		p($up->getErrormsg());
+
+	}
+	
+//设置
+$up->set('path',"./public/images/");//自定义上传路径
+$up->set('maxsize',1000000);//限制上传大小
+$up->set('allowtype',array('gif','png'));//限制上传格式
+$up->set('israndomname',false);//不用随机名
+
+
+//用父类的方法，直接可以进行缩放；水印//profix前缀，不覆盖
+$up->set('thumb',array('width'=>300,'height'=>300,'prefix'=>'th_'));
+
+$up->set('watermark',array('water'=>'php.gif','location'=>5));
+
+

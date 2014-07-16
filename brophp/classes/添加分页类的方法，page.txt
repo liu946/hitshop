@@ -1,0 +1,25 @@
+<?php
+	//在类的方法中，有display的；user.class.php；
+	//1、创建page对象：
+    $page=new Page($user->total(),10);//第一个参数：表记录总数；$user为D()返回的表对象；
+	//第二个参数：每页显示条数；
+	//2、查找时加上
+	…… ->limit($page->limit)->select();
+	//3、添加分页显示结构字符串；
+	this->assign('fpage',$page->fpage());
+	
+	
+	//4、在模板中加上一行，加上分页fpage
+	<tr>
+		<td align="right" colspan="5"><{$fpage}></td>
+	</tr>
+	
+	
+	//设置格式
+     $page->set("head", "条图片条图片") 
+                                    条图片条图片 
+
+             ->set("first", "|<") 
+            ->set("last", ">|") 
+            ->set("prev", "|<<") 
+            ->set("next", ">>|"); 

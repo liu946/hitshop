@@ -1,0 +1,35 @@
+<style type="text/css">
+<!
+--
+	
+   .inputheight{
+        border-style : solid;
+        border-color : #26446A;
+        height:25px;
+    }
+     .button
+    {
+	width: 78px;
+    height:30px;
+    background: none repeat scroll 0% 0% #E4393C;
+        background-color: #26446A;
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: 0% 0%;
+        background-size: auto;
+        background-clip: border-box;
+        background-origin: padding-box;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+}
+	 #tool{
+        border-style : solid;
+        border-color : #26446A;
+        height:25px;
+    }
+  
+	-->  
+
+</style>

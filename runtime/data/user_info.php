@@ -1,0 +1,1 @@
+<?php {"pri":"id","0":"uid","1":"realname","2":"shenfennum","3":"phone","4":"qq","5":"address","6":"postcode"}yes

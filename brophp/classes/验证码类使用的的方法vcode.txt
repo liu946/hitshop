@@ -1,0 +1,15 @@
+<?php
+
+	//1、在模板中加上一行，加上验证码输入；name是code可以自动验证；//加上验证码图片请求一个本类的方法；
+	<tr>
+		<input type="text"  size="6" onkeyup="if(this.value!=this.value.toUpper.Case())this.value=this.value.toUpperCase()"name="code"><img oncilck="this.src='<{$url}>/code/'+Math.random()" src="<{$url}>/code">
+	</tr>
+	
+	
+	//2.在类的方法中，有display的；方法中创建Vcode对象
+	function code(){
+		debug(0);
+		echo new Vcode();
+	}
+	//
+	

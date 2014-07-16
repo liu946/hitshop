@@ -1,0 +1,93 @@
+
+	.cla_fenlei{
+		display: block;
+		height: 40px;
+		padding-left: 20px;
+		line-height: 40px;
+		color:#FFF;
+		font-family:microsoft yahei;
+		font-size:18px;
+		background-color:#DF5038;
+		padding-left:40px;		
+	}
+
+    #wa{
+        border-color:#DF5038;
+        border-style:solid;
+        height:270px;
+        width:200px;
+		float: left;
+		display: inline;
+    }
+	
+    #mainclass{
+    display: block;
+    height: 40px;
+	text-align:center;
+	padding-top:20px;
+    font-family:宋体;
+	font-size:18px;
+    }
+	
+   
+    .ma{
+	   display: block;
+	   font-family:microsoft yahei;
+	   font-size:18px;
+	  
+	}
+	
+   #list1{
+   height:360px;
+   }
+   .list2{
+   width:200px;
+   height:350px;
+   float: left;
+    display:inline;
+   }
+   .list3{
+   width:950px;
+   height:300px;
+   }
+  
+	.list4{
+       height:350px;
+        border-top-style:solid;
+        border-top-color:#B5C17E;
+    }
+
+    .m1{
+        border-top-style:solid;
+        border-top-color:#B5C17E;
+        height:400px;
+    }
+	.tupian{
+        height:200px;
+		width:200px;
+	}
+	.cheap{
+	    border-top-style:solid;
+        border-top-color:#B5C17E;
+        height:400px;
+	}
+	#link{
+	   font-family:宋体;
+	   font-size:13px;
+	   text-align:center;
+	
+	}
+	.shangping{
+	width:150px;
+	height:175px;
+	float:left;
+	display:inline;
+	}
+	.cheapgood{
+	float:left;
+    height:250px;
+    width:auto;
+    margin: 5px;
+    display:inline;
+    width: 18%;
+	}

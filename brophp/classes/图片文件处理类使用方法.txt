@@ -1,0 +1,16 @@
+<?php
+	//创建对象Image，写出路径
+	$img = new Image('./pubilc/uploads');
+	
+	
+	
+	//缩放，4个参数为前缀，没有就是覆盖图片；返回文件名
+	$img->thumb("one.jpg",400,200,'th1_');
+	
+	
+	//水印,3：位置，九宫格；4.前缀；返回文件名
+	$img->waterMark("one.jpg","logo.gif",9,'wa_')
+	
+	//裁剪
+	$img->cut();
+	
